@@ -1,0 +1,20 @@
+body {
+    padding-bottom: 1000px;
+}
+
+
+h2 {
+    color: yellowgreen;
+}
+
+
+ul {
+    border: 1px solid dimgray;
+    padding: 25px  /* Espaçamento Interno */
+}
+
+
+li {
+    color: darkslateblue;
+}
+

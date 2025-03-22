@@ -1,0 +1,70 @@
+/* Cores CSS */
+
+
+/* Background */
+
+.cor-background {
+    background-color: #333;
+    color: thistle;
+    padding: 5px;
+}
+
+
+.opacidade-bg {
+    background-color: bisque;
+    color: #666;
+    opacity: 0.25; /* Compromente Todo o Elemento */
+}
+
+
+/* Nome */
+
+.nome-da-cor {
+    color: blueviolet;
+}
+
+
+/* RGB */
+
+.cor-rgb {
+    color: rgb(255, 0, 0);
+}
+
+
+.rgb-misturado {
+    color: rgb(50, 125, 255);
+}
+
+
+/* RGBA */
+
+.rgb-alpha {
+    color: rgba(100, 100, 200, 0.25);
+}
+
+
+.rgba-opacidade {
+    background-color: rgba(33, 33, 33, 0.5);
+    color: #666;
+}
+
+
+/* HSL */
+
+.cor-hsl {
+    color: hsl(100, 75%, 50%)
+
+}
+
+
+/* Hexadecimal */
+
+.cor-hexa {
+    color: #c5bc3b;
+}
+
+
+.hex-simplificado { 
+    color: #666;
+}
+
