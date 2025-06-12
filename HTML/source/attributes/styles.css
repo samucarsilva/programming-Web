@@ -1,0 +1,39 @@
+
+
+/* Classes */
+
+
+.paragrafo {
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+
+/* ID */
+
+#titulo-com-id {
+    background-color: chocolate;
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+
+/* Regras */
+
+
+p {
+    border-bottom: 3px solid grey;
+}
+
+
+.class-titulo {
+    border-bottom: 3px solid red;
+}
+
+
+#id-titulo {
+    border-bottom: 3px solid black;
+}

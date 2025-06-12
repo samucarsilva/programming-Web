@@ -1,0 +1,144 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+
+/* Alinhamento de Texto */
+
+
+/* À Direita */
+
+.alinhamento-direito {
+    text-align: right;
+}
+
+
+/* Centro */
+
+.centralizar-container {
+    text-align: center; /* O Texto Será Centralizado em Relação à DIV */
+    border: 3px solid salmon;
+    width: 500px;
+}
+
+
+/* Enfeites de Texto */
+
+
+/* Underline */
+
+.underline {    
+    text-decoration: underline;
+}
+
+
+/* Riscado */
+
+.line-through {
+    text-decoration: line-through;
+}
+
+
+/* Sobrelinha */
+
+.overline {
+    text-decoration: overline;
+    color: chocolate;
+}
+
+
+/* Removendo  */
+
+.rem-underline {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+/* Transformando Textos */
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+
+.texto-minusculo {
+    text-transform: lowercase;
+}
+
+
+.texto-paragrafo {
+    text-transform: capitalize;
+}
+
+
+/* Letter-Spacing */
+
+.letter-spacing {
+    text-align: center; /* Centralizando o Texto */
+    letter-spacing: -1px; /* Adicionando Espaçamento Entre as Letras*/
+}
+
+
+/* Fontes */
+
+
+.fonte-serif {
+    font-family: serif;
+}
+
+
+.fonte-sans-serif {
+    font-family: sans-serif;
+}
+
+
+.fonte-monospace {
+    font-family: monospace;
+}
+
+
+.fonte-cursive {
+    font-family: cursive;
+}
+
+
+.fonte-fantasy {
+    font-family: fantasy;
+}
+
+
+.fonte-navegador {
+    font-family: Arial;
+}
+
+
+.fonte-externa-um {
+    font-family: 'Press Start 2P', cursive; /* Fonte Importada do Google Fonts */
+    font-size: 12px;
+}
+
+
+.fonte-externa-dois {
+    font-family: 'Paprika';
+    font-size: 12px;
+}
+
+
+    /* Estilos */
+
+.fonte-normal {
+    font-style: normal;
+}
+
+
+.fonte-italic {
+    font-style: italic;
+}
+
+
+.fonte-oblique {
+    font-style: oblique;
+}
+

@@ -1,0 +1,97 @@
+
+
+/* Background */
+
+
+* { /* Seletor Universal */
+        /* O código abaixo evita problemas ao exibir imagens e/ou vídeos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+
+h1 {
+    font-size: 3em; /* EM: Tamanho Atual da Fonte
+                    (1EM -> 1x Tamanho Atual da Fonte) */
+}
+
+
+p {
+    font-size: 1.5em;
+}
+
+
+/* Image */
+
+.background-image {
+    background-image: url(../../assets/imageExample-2.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 10px;
+    color: #fff;
+    height: 512px;
+}
+
+
+    /* Centralizando Imagem */
+
+
+    /* Aplicando Regra de Estilo Para Dois Elementos de Uma Só Vez */
+
+.bgImage-centralizado, .bgImage-naoCentralizado {
+    background-image: url(../../assets/imageExample-1.png);
+    width: auto;
+    height: 512px;
+}
+
+
+.bgImage-centralizado {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.bgImage-naoCentralizado {
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+/* Video */
+
+
+.conteudo-pagina {
+    background-color: rgba(50, 50, 50, 50%);
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.background-video {
+    position: relative; /* Posição do Elemento no Body: Serve como um contêiner para os elementos */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+#meu-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

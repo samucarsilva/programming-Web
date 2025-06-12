@@ -1,0 +1,248 @@
+
+
+/* Display Flex */
+
+
+.flexbox {
+    background-color: #505050;
+    display: flex;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+
+.flexbox p {
+    margin-right: 15px;
+}
+
+
+/* Flex-Direction */
+
+.flex-direction {
+    background-color: #BBB;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+/* Flex-Wrap */
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.box {
+    width: 33%;
+    height: 50px;
+    border: 1px solid slateblue;
+}
+
+
+/* Justify-Content */
+
+.space-around, .space-between, 
+    .center, .end {
+        display: flex;
+        margin-bottom: 30px;
+}
+
+
+.space-around .box, .space-between .box, 
+    .center .box, .end .box {
+        width: 60px;
+}
+
+
+.space-around {
+    justify-content: space-around;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+.center {
+    justify-content: center; /* Centraliza Horizontalmente */
+}
+
+
+.end {
+    justify-content: end;
+}
+
+
+/* Align-Items */
+
+.stretch, .align-center, .flex-end {
+    display: flex;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 1px solid #505050;
+}
+
+
+.stretch .box, .align-center .box, 
+    .flex-end .box {
+        width: 60px;
+
+}
+
+
+.stretch {
+    align-items: stretch;
+}
+
+
+.stretch .box {
+    height: auto;
+}
+
+
+.align-center {
+    align-items: center; /* Centraliza Verticalmente */
+    justify-content: center;
+}
+
+
+.flex-end {
+    align-items: flex-end;
+}
+
+
+/* Align-Self */
+
+.align-self {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    border: 1px solid #505050;
+    margin-bottom: 30px;
+}
+
+
+.align-self .different {
+    align-self: flex-end;
+}
+
+
+.align-self .different-two {
+    align-self: flex-start;
+}
+
+
+/* Content Gap */
+
+.flex-gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+
+.flex-gap .box {
+    width: 32%;
+}
+
+
+/* Flexbox Order */
+
+.flex-order {
+    display: flex;
+}
+
+
+#a {
+    order: 1;
+}
+
+
+#b {
+    order: 2;
+}
+
+
+#c {
+    order: 3;
+}
+
+
+/* Flexbox Grow */
+
+.flex-grow {
+    display: flex;
+
+}
+
+
+.flex-grow .box {
+    flex: 1;
+}
+
+
+.flex-grow .big {
+    flex: 2;
+}
+
+
+/* Flexbox Basis */
+
+.flex-basis {
+    display: flex;
+}
+
+
+.flex-basis .box {
+    flex-basis: 50px;
+}
+
+
+.flex-basis .big {
+    flex: 1;
+}
+
+
+/* Flexbox Shrink */
+
+.flex-shrink {
+    display: flex;
+}
+
+
+.flex-shrink .box {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: auto;
+}
+
+
+.flex-basis .small {
+    flex-shrink: 2;
+}
+
+
+/* Flex Shorthand */
+
+.shorthand {
+    display: flex;
+}
+
+
+.shorthand .box {
+    width: auto;
+    flex: 1 1 50px; /* Grow - Shrink - Basis */
+}
+
+
+.shorthand .different {
+    flex: 4 1 300px;
+}
+

@@ -1,0 +1,29 @@
+
+
+/* Html Forms */
+
+
+h1 {
+    text-align: left;
+}
+
+
+div {
+    margin-bottom: 15px;
+}
+
+
+div input, label {
+    display: block; /* Deixa um elemento acima de outro */
+}
+
+
+.input-radio input, .input-radio label, 
+.input-checkbox input, .input-checkbox label {
+    display: inline-block;
+}
+
+
+.botao {
+    display: inline-block;
+}

@@ -1,0 +1,24 @@
+
+
+/* Css Basics */
+
+
+body {
+    margin-bottom: 1000px; /* Adicionando Espaçamento Externo P/ Uso do Scroll do Mouse */
+}
+
+
+h2 {
+    color: yellowgreen;
+}
+
+
+ul {
+    border: 1px solid dimgray;
+    padding: 25px  /* Espaçamento Interno */
+}
+
+
+li {
+    color: darkslateblue;
+}

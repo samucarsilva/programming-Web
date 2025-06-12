@@ -1,0 +1,178 @@
+
+
+/* Altura e 
+    Largura */
+
+
+.altura-largura {
+    background-color: rgb(160, 100, 160);
+    width: 200px;
+    height: 500px;
+}
+
+
+.nova-altura-largura {
+    height: 200px;
+    background-color: darkgray;
+}
+
+
+/* Padding */
+
+.sem-padding {
+    background-color: rgb(120, 100, 180);
+    padding: none;
+    width: 200px;
+    height: 200px;
+}
+
+
+.com-padding {
+    background-color: rgb(100, 100, 180);
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.padding-lados {
+    background-color: cadetblue;
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+}
+
+
+.shorthand-padding {
+    background-color: indianred;
+    padding: 6px 12px 18px 24px;
+    /* padding: 6px 12px; */
+}
+
+
+/* Bordas */
+
+.borda-um {
+    border: 5px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.borda-dois {
+    border: 3px dotted gray;
+    padding: 5px;
+}
+
+
+/* Bordas Individuais */
+
+.borda-esquerda {
+    background-color: #505050;
+    color: white;
+    padding: 25px;
+    border-left: 3px solid yellowgreen;
+}
+
+
+.borda-direita {
+    background-color: cornflowerblue;
+    color: pink;
+    padding: 25px;
+    border-right: 3px dashed pink;
+}
+
+
+.borda-superior {
+    background-color: antiquewhite;
+    color: gray;
+    padding: 25px;
+    border-top: 6px dotted red;
+
+}
+
+
+.borda-inferior {
+    background-color: #505050;
+    color: white;
+    padding: 25px;
+    border-bottom: 6px double rgb(125, 125, 150);
+}
+
+
+/* Bordas Diferentes */
+
+.borda-total {
+    background-color: #505050;
+    color: white;
+    padding: 25px;
+    border-left: 5px double rosybrown;
+    border-right: 5px solid rgb(150, 187, 255);
+    border-top: 10px dotted salmon;
+    border-bottom: 5px dashed rgb(130, 200, 150);
+}
+
+
+/* Bordas Arredondadas */
+
+.paragrafo-arredondado-um {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 25px;
+    border: 5px solid cornflowerblue;
+    border-radius: 20px;
+
+}
+
+
+.paragrafo-arredondado-dois {
+    background-color: salmon;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+
+/* Margem */
+
+.margem-default {
+    background-color: cornflowerblue;
+    color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.margem-topo {
+    background-color: cadetblue;
+    color: beige;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+.margem-shorthand {
+    background-color: cornflowerblue;
+    color: beige;
+    padding: 10px;
+    margin: 5px 10px 15px 20px;
+}
+
+
+/* CSS Box Model */
+
+.css-box-model {
+    background-color: #505050;
+    color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    padding: 10px 20px 15px 25px;
+    margin: auto; /* Auto Centralizar o Elemento */
+    text-align: center; /* Centralizando o Texto no Elemento */
+    border: 5px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+
