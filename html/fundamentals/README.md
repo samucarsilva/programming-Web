@@ -27,3 +27,13 @@ Para garantir que os pacotes sejam enviados e recebidos corretamente, a internet
 - IP: protocolo da camada de internet que encaminha os pacotes para seus destinos corretos — atuando como um sistema de endereçamento e roteamento
 
 - TCP: protocolo da camada de transporte que garante que os pacotes sejam transmitidos de forma confiável e na ordem correta
+
+#### 1.2.1 Navegadores
+
+Os navegadores consistem em softwares que permitem aos utilizadores acessar e interagir com a web, servindo para visualizar o conteúdo de páginas web: eles interpretam — transformam — códigos complexos na interface visual que aparece na tela
+
+Existem diversos navegadores no mercado — cada um com suas peculiaridades: a forma como cada um processa um documento web pode resultar em conteúdos e estruturas diferentes para cada navegador
+
+*"Os desenvolvedores devem realizar testes em mais de um navegador, procurando adequar a estrutura do código-fonte para funcionamento na maioria destes softwares"*
+
+Cada navegador possui um conjunto de ferramentas integradas que ajudam desenvolvedores a inspecionar, depurar e testar sites de aplicativos web. Esse conjunto de ferramentas é chamado de DevTools — Ferramentas de Desenvolvimento — e, geralmente, pode ser acessado no navegador por meio da tecla de atalho F12
