@@ -28,6 +28,22 @@ Para garantir que os pacotes sejam enviados e recebidos corretamente, a internet
 
 - TCP: protocolo da camada de transporte que garante que os pacotes sejam transmitidos de forma confiável e na ordem correta
 
+Uma ampla gama de outros protocolos ajudam a viabilizar a troca de dados pela internet e facilitam o acesso aos recursos da web, como o DNS — Domain Name System:
+
+- DNS: protocolo da camada de aplicativo que traduz nomes de domínio em endereços do protocolo de internet — IP —, facilitando o acesso a websites sem a necessidade de decorar números complexos
+
+*"A internet fornece toda a infraestrutura técnica que torna a web possível, ou seja, a web corresponde a um serviço construído sobre a internet — sem a internet, a web nunca existiria"*
+
+Agora, para que a web seja acessada e seus recursos possam ser utilizados utiliza-se o HTTP — Hypertext Transfer Protocol —, um protocolo utilizado especificamente para troca de dados na web.
+
+- HTTP: protocolo da camada de aplicativo utilizado para transferir dados entre um cliente — como um navegador — e um servidor, definindo o formato das requests e responses
+
+- HTTPS: semelhante ao protocolo anterior, no entanto, mais seguro — ele adiciona uma camada de criptografia por meio do protocolo TLS
+
+*"O protocolo TLS — Transport Layer Security — oferece privacidade e integridade dos dados por meio de criptografia, operando principalmente na troca de dados entre cliente e servidor"*
+
+Ao acessar um site, o cliente — navegador — solicita um recurso do documento — página — acessado e aguarda uma resposta. O servidor — site — analisa o pedido e envia uma resposta de volta ao cliente, contendo os dados solicitados.
+
 #### 1.2.1 Navegadores
 
 Os navegadores consistem em softwares que permitem aos utilizadores acessar e interagir com a web, servindo para visualizar o conteúdo de páginas web: eles interpretam — transformam — códigos complexos na interface visual que aparece na tela
