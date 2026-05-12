@@ -53,3 +53,17 @@ Existem diversos navegadores no mercado — cada um com suas peculiaridades: a f
 *"Os desenvolvedores devem realizar testes em mais de um navegador, procurando adequar a estrutura do código-fonte para funcionamento na maioria destes softwares"*
 
 Cada navegador possui um conjunto de ferramentas integradas que ajudam desenvolvedores a inspecionar, depurar e testar sites de aplicativos web. Esse conjunto de ferramentas é chamado de DevTools — Ferramentas de Desenvolvimento — e, geralmente, pode ser acessado no navegador por meio da tecla de atalho F12
+
+### 1.3 Servidores
+
+Um servidor de rede corresponde a um sistema computacional centralizado de alto desempenho que armazena, gerencia e fornece recursos para outros dispositivos conectados a uma rede.
+
+*"Existem diferentes tipos de servidores fundamentais para a infraestrutura da internet, como os servidores web, os servidores de arquivos e os servidores de bancos de dados: cada tipo centraliza recursos exclusivos"*
+
+Um servidor web consiste numa subcategoria de servidor de rede — hardware ou software — que gerencia os recursos armazenados em um site, desenhados exclusivamente para processar requests HTTP:
+
+- Servidores web fornecem suporte para HTTP: protocolo utilizado para transferir arquivos entre clientes e servidores;
+
+- As requests sempre partem do cliente em rumo ao servidor — nunca o contrário;
+
+- Servidores respondem a todas as requests recebidas — seja com os dados solicitados ou com uma mensagem de erro.
