@@ -4,6 +4,26 @@ Uma rede de computadores consiste num sistema que conecta dois ou mais dispositi
 
 *"Cada dispositivo conectado a uma rede recebe o nome de host, e todos os dispositivos conectados a rede se comunicam entre si por meio de um conjunto padronizado de protocolos"*
 
+### 1.1 Cliente-Servidor
+
+A arquitetura cliente-servidor consiste num modelo onde um ou mais sistemas centralizados — servidores — fornecem recursos, e um ou mais dispositivos — clientes — solicitam e consomem esses recursos.
+
+*"Dentro de uma rede, este modelo distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso e os solicitantes destes recursos"*
+
+Desse modo, o modelo define a forma como clientes interagem com servidores para acessar e consumir recursos e executar tarefas:
+
+- Cliente: refere-se a qualquer dispositivo que inicia a troca de dados, solicitando um determinado recurso
+
+- Servidor: refere-se ao sistema centralizado que recebe os pedidos dos clientes, processa-os e envia as respostas adequadas
+
+O modelo cliente-servidor se baseia em requests — requerimentos — e responses — respostas. O ciclo fundamental deste modelo se resume em:
+
+- Um cliente solicita um recurso e envia o pedido a um servidor por meio de uma rede de computadores;
+
+- O servidor recebe o pedido, processa-o e envia uma resposta apropriada de volta ao cliente;
+
+- O cliente exibe o resultado do pedido realizado para o utilizador final
+
 ### 1.2 Protocolos
 
 Um protocolo, no contexto dos computadores, corresponde a um conjunto de regras e esquemas que define como dois agentes — dispositivos — se comunicam e trocam dados entre si em uma rede.
