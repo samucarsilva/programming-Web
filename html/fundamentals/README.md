@@ -4,11 +4,11 @@ Uma rede de computadores consiste num sistema que conecta dois ou mais dispositi
 
 *"Cada dispositivo conectado a uma rede recebe o nome de host, e todos os dispositivos conectados a rede se comunicam entre si por meio de um conjunto padronizado de protocolos"*
 
-### 1.1 Protocolos
+### 1.2 Protocolos
 
 Um protocolo, no contexto dos computadores, corresponde a um conjunto de regras e esquemas que define como dois agentes — dispositivos — se comunicam e trocam dados entre si em uma rede.
 
-### 1.2 Internet
+### 1.3 Internet
 
 A internet consiste em uma gigante rede de computadores que conecta todos que a utilizam com todo o mundo — um dos maiores exemplos de rede de computadores existente — podendo ser interpretada como uma teia gigante que interliga dispositivos de diferentes tipos.
 
@@ -44,7 +44,7 @@ Agora, para que a web seja acessada e seus recursos possam ser utilizados utiliz
 
 Ao acessar um site, o cliente — navegador — solicita um recurso do documento — página — acessado e aguarda uma resposta. O servidor — site — analisa o pedido e envia uma resposta de volta ao cliente, contendo os dados solicitados.
 
-#### 1.2.1 Navegadores
+#### 1.3.1 Navegadores
 
 Os navegadores consistem em softwares que permitem aos utilizadores acessar e interagir com a web, servindo para visualizar o conteúdo de páginas web: eles interpretam — transformam — códigos complexos na interface visual que aparece na tela
 
@@ -54,7 +54,7 @@ Existem diversos navegadores no mercado — cada um com suas peculiaridades: a f
 
 Cada navegador possui um conjunto de ferramentas integradas que ajudam desenvolvedores a inspecionar, depurar e testar sites de aplicativos web. Esse conjunto de ferramentas é chamado de DevTools — Ferramentas de Desenvolvimento — e, geralmente, pode ser acessado no navegador por meio da tecla de atalho F12
 
-### 1.3 Servidores
+### 1.4 Servidores
 
 Um servidor de rede corresponde a um sistema computacional centralizado de alto desempenho que armazena, gerencia e fornece recursos para outros dispositivos conectados a uma rede.
 
