@@ -63,3 +63,9 @@ O valor **viewport** fornecido ao atributo **name** instrui os navegadores sobre
 - `<title>`: elemento que define o título do documento, exibido na aba dos navegadores e nos resultados de pesquisa dos mecanismos de busca
 
 - `<body>`: elemento que define o corpo do documento — engloba tudo aquilo que os visitantes veem e com que interagem, como textos, links e imagens
+
+### 1.3 Comentários
+
+Um **comentário** consiste num trecho de texto inserido no **código-fonte** de um programa — ignorados pelos navegadores — que serve exclusivamente para humanos, auxiliando os desenvolvedores a documentar e organizar a estrutura do projeto.
+
+Um comentário se inicia com `<!--` e termina com `-->` e funciona tanto para uma linha quanto para mais de uma linha ou blocos: tudo que estiver inserido dentro de um comentário é ignorado pelo navegador, incluindo elementos.
